@@ -1,0 +1,79 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.content {
+    text-align: center;
+    padding: 50px;
+    z-index: 1;
+    position: relative;
+}
+
+.main-text {
+    font-size: 36px;
+    color: #FFB6C1; /* Baby pink */
+}
+
+.loving-paragraph {
+    font-size: 20px;
+    color: #333;
+    margin-top: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.from-friend {
+    font-size: 24px;
+    color: #FF1493; /* Deep pink */
+    margin-top: 20px;
+}
+
+.timer {
+    margin-top: 30px;
+}
+
+#countdown {
+    font-size: 30px;
+    font-weight: bold;
+    color: #FF1493; /* Deep pink */
+    margin-top: 10px;
+}
+
+#clickable-question {
+    margin-top: 40px;
+}
+
+#cake-question, #treat-question {
+    font-size: 20px;
+    color: #000;
+    margin-top: 20px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #FF69B4; /* Hot pink */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF1493;
+}
+
+.hearts-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0; /* Ensures hearts are behind the text */
+}

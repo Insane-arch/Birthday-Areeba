@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Surprise for Areeba</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content">
+        <h1 class="main-text">Happy Birthday Areeba! 🎉</h1>
+        <p class="loving-paragraph">
+            Wishing you all the happiness in the world on your special day. You deserve all the love and joy life has to offer. I am so grateful to know someone as wonderful as you. Stay amazing! 💖
+        </p>
+        <p class="from-friend">
+            From your middle friend 🫶🏻❤️
+        </p>
+        <div id="timer" class="timer">
+            <h2>Time Remaining Until 12 AM Tomorrow:</h2>
+            <div id="countdown"></div>
+        </div>
+        <div id="clickable-question">
+            <button onclick="showCake()">Click Here 🎂</button>
+        </div>
+        <div id="cake-question" style="display:none;">
+            <p>Ap itni pyaari Q hain? 🥰</p>
+            <button onclick="showTreatQuestion()">Forward</button>
+        </div>
+        <div id="treat-question" style="display:none;">
+            <p>Treat kab deni hai? 😁</p>
+        </div>
+    </div>
+    <canvas id="heartsCanvas" class="hearts-canvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
